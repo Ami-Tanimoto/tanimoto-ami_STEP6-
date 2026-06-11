@@ -26,9 +26,9 @@ if (
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta cheaset="UTF-8">
+    <meta charset="UTF-8">
     <title>お問い合わせフォーム - 確認画面</title>
-    <link rel="stylesheet" herf="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -44,10 +44,10 @@ if (
         <li><a href="#">エンジニアおすすめ記事</a></li>
         <li><a href="#">投稿ページ</a></li>
     </ul>
-</aiside>
+</aside>
 
 <form action="send.php" method="post">
-    <table border="3px">
+    <table border="3">
         <tr>
             <th>お名前</th>
             <td><?php echo htmlspecialchars($_POST['name'], ENT_QUOTES, 'UTF-8'); ?></td> 
